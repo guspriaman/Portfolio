@@ -1,0 +1,7 @@
+---
+deployment:
+  taslks:
+    - export DEPLOYPART=/home/u1663928/public_html/
+    - /bin/cp index.html $DEPLOYPART
+    - /bin/cp -r assets $DEPLOYPART
+    - /bin/cp -r forms $DEPLOYPART
