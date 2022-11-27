@@ -103,6 +103,65 @@ h6 {
   margin-top: 60px;
 }
 
+#header .social-whatsapp a {
+  font-size: 30px;
+  display: inline-block;
+  background: #07ca6ff9;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  padding: 3px 0;
+  margin-right: 1px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#header .social-whatsapp a:hover {
+  background: #102530;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#header .social-instagram a {
+  font-size: 30px;
+  display: inline-block;
+  background: #e60438c2;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  padding: 3px 0;
+  margin-right: 1px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#header .social-instagram a:hover {
+  background: #102530;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#header .social-linkendin a {
+  font-size: 30px;
+  display: inline-block;
+  background: #048ce6c2;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  padding: 3px 0;
+  margin-right: 1px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#header .social-linkendin a:hover {
+  background: #102530;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
