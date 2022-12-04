@@ -49,7 +49,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 #preloader:before {
@@ -58,7 +58,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1b2c2a;
-  border-top-color: #bed8d7;
+  border-top-color: #000000;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -160,6 +160,44 @@ h6 {
   padding-right: 15px;
 }
 
+.header-social-links .whatsapp {
+  color: #09ff57;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.header-social-links a:hover {
+  color: #ffffff;
+}
+
+
+.header-social-links .instagram {
+  color: #d55050;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+
+
+
+.header-social-links .linkedin {
+  color: #2589a4;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+
+
+
 .header-social-links a {
   color: #f2ebeb;
   padding-left: 6px;
@@ -169,9 +207,7 @@ h6 {
   font-size: 16px;
 }
 
-.header-social-links a:hover {
-  color: #0eb216;
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -379,7 +415,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #34b7a7;
+  color: #ffffff;
 }
 
 .navbar-mobile .getstarted,
@@ -414,7 +450,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #34b7a7;
+  color: #4ebcc8;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -467,12 +503,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: rgb(240, 233, 233);
-  background: #083f1d;
+  color: rgb(0, 0, 0);
+  background: #fffcfc;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #19330f;
 }
 
 @media (min-width: 1024px) {
@@ -617,7 +653,7 @@ section {
 
 .about .content a {
   background: #000000;
-  color: #26ae0b;
+  color: #fefefe;
 }
 .about .content h3 {
   font-weight: 700;
